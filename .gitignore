@@ -69,4 +69,3 @@ data/*/*/*/*.png
 !data/
 !data/*/
 !data/*/*/
-!data/*/*/*/
