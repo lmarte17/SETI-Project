@@ -61,15 +61,12 @@ coverage.xml
 *.tmp
 
 # Image files in data directory
-data/**/**/*.png
-# data/**/**/*.jpg
-# data/**/**/*.jpeg
-# data/**/**/*.gif
-# data/**/**/*.tif
-# data/**/**/*.tiff
-# data/**/**/*.bmp
+data/*/*.png
+data/*/*/*.png
+data/*/*/*/*.png
 
 # Keep data directory structure
 !data/
-!data/**/
-!data/**/**/.gitkeep
+!data/*/
+!data/*/*/
+!data/*/*/*/
