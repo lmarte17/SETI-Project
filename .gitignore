@@ -36,6 +36,7 @@ ENV/
 # Jupyter Notebook
 .ipynb_checkpoints
 *.ipynb
+!seti_analysis.ipynb
 
 # Distribution / packaging
 .Python
@@ -58,3 +59,11 @@ coverage.xml
 *.dat
 *.log
 *.tmp
+
+# Image files in data directory
+data/**/*.png
+
+# Keep data directory structure
+!data/
+!data/**/
+!data/**/.gitkeep
