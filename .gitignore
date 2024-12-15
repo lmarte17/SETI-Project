@@ -61,7 +61,13 @@ coverage.xml
 *.tmp
 
 # Image files in data directory
-data/**/*.png
+data/**/**/*.png
+# data/**/**/*.jpg
+# data/**/**/*.jpeg
+# data/**/**/*.gif
+# data/**/**/*.tif
+# data/**/**/*.tiff
+# data/**/**/*.bmp
 
 # Keep data directory structure
 !data/
