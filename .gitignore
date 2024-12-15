@@ -72,4 +72,4 @@ data/**/**/*.png
 # Keep data directory structure
 !data/
 !data/**/
-!data/**/.gitkeep
+!data/**/**/.gitkeep
